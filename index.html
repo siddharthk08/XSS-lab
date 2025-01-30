@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>XSS Demo </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Stored xxs Demo</h1>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Image 1" class="img ">
+            <img src="https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Image 2" class="img ">
+            <img src="https://images.unsplash.com/photo-1622624671653-18a35aba747d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Image 3" class="img ">
+        </div>
+        <div class="slides2">
+            <button class="prev btn" onclick="prevSlide()">Prev</button>
+            <button class="next btn" onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+
+    <div class="comments">
+        <h2>Comments</h2>
+
+        <p class="subHeading">Leave a comment: </p>
+        <input type="text" id="commentInput">
+        <button class="send" onclick="addComment()"><i class="fa-solid fa-arrow-right"></i></i></button>
+
+        <div id="commentList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

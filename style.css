@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(228, 238, 197);
+    font-family: sans-serif;
+    margin: 20px;
+    height: 100%;
+    width: 100vw;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add some basic styles for comments */
+  li b {
+    font-weight: bold;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+ 
+  
+  .img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center; /* Center the images */
+  }
+  
+  .slides {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+  }
+  
+  .slides img {
+    max-width: 50%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Center the images */
+  }
+  
+  .btn {
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    cursor:pointer;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  .slides2 {
+    margin-top:  30px;
+
+  }
+
+  .title {
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .comments {
+    margin-left: 470px;
+    
+    
+  }
+
+  .subHeading {
+    font-weight: lighter;
+    color: #616161;
+  }
+
+  #commentInput {
+    padding: 7px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+    width: 40%;
+    margin-right: 10px;
+  }
+
+  .send {
+    padding: 5px ;
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-size: 25px;
+   margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 30px;
+  }
+
+  .comment {
+    border-bottom: 1px solid #ddd;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.comment:last-child {
+    margin-bottom: 0;
+}
